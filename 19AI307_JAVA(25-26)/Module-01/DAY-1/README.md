@@ -2,16 +2,26 @@
 
 ## QUESTION:
 
+A shop keeper would like to welcome their customers with their name.
 
 ## AIM:
 
+To write a Java program that accepts a user’s name as input and displays a greeting message in the format: Hello, [name].
+
 
 ## ALGORITHM :
-1.	
-2.
-3.
-4.
-5.
+
+1.Start the program
+
+2.Import Scanner class
+
+3.Create Scanner object
+
+4.Read name input from user
+
+5.Print greeting message
+
+6.End the program
 
 
 
@@ -19,21 +29,34 @@
  ```
 /*
 Program to implement variables and Operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Amruthavarshini Gopal
+RegisterNumber: 212223230013
 */
 ```
 
 ## Sourcecode.java:
 
-
-
+```
+import java.util.*;
+public class Main
+{
+    public static void main(String [] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String n=sc.nextLine();
+        
+        System.out.println("Hello, "+n);
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
+<img width="607" height="160" alt="600837021-f509b059-45eb-47ba-984c-a54c966d5201" src="https://github.com/user-attachments/assets/2083065e-36cd-4d3f-ab29-010ba335753b" />
 
 
 ## RESULT:
+Thus, a Java program was successfully implemented to take a user’s name as input and display a personalized greeting message.
